@@ -1,0 +1,8 @@
+/* Shared Greenside.info branding. */
+.site-brand{display:inline-flex;align-items:center;flex-shrink:0;line-height:0;border-radius:8px;overflow:hidden}
+.site-brand img{display:block;width:230px;height:110px;max-width:100%;object-fit:contain}
+.site-brand:focus-visible{outline:3px solid #f9f8df;outline-offset:4px}
+header .nav{min-height:126px}
+body>header:has(>.site-brand){gap:16px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
+.admin-label{font-size:13px;letter-spacing:0;color:#bad3c2}
+@media(max-width:660px){.site-brand img{width:176px;height:auto}header .nav{min-height:100px;gap:12px}body>header:has(>.site-brand){padding-left:15px;padding-right:15px}}
